@@ -96,8 +96,8 @@ export function ReviewLightbox({ review, isOpen, onClose }: ReviewLightboxProps)
             </div>
 
             {/* Scrollable content */}
-            <div className="p-6 overflow-y-auto max-h-[calc(85vh-140px)]">
-              <div className="prose prose-sm dark:prose-invert max-w-none text-blackhole dark:text-linen/90 leading-relaxed whitespace-pre-wrap">
+            <div className="p-6 pb-0 overflow-y-auto max-h-[calc(85vh-140px)]">
+              <div className="prose prose-sm dark:prose-invert max-w-none text-blackhole dark:text-linen/90 leading-relaxed whitespace-pre-wrap pb-16">
                 {review.fullReview}
               </div>
             </div>
