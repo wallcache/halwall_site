@@ -284,12 +284,12 @@ export function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b ${
         isScrolled
           ? isDark
-            ? "bg-[#1a1a1a]/70 backdrop-blur-xl border-b border-[#FAF3E1]/10"
-            : "bg-linen/60 backdrop-blur-xl border-b border-blackhole/10"
-          : "bg-transparent"
+            ? "bg-[#1a1a1a]/70 backdrop-blur-xl border-[#FAF3E1]/10"
+            : "bg-linen/60 backdrop-blur-xl border-blackhole/10"
+          : "bg-transparent border-transparent"
       }`}
     >
       <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
