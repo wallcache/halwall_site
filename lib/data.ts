@@ -90,7 +90,7 @@ export const experienceData: Experience[] = [
   {
     title: "Freelance Designer & Creative",
     company: "WallCache",
-    companyUrl: "https://wallcache.com",
+    companyUrl: "/photography",
     dateRange: "Oct 2019 — May 2021",
     description:
       "Founded a creative consultancy delivering photography, branding, and design work. Managed client relationships and design roadmaps, creating visual identities for businesses ranging from startups to established brands.",
