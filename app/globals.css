@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* CSS Custom Properties for theming */
+:root {
+  /* Light theme (default) */
+  --color-background: #FAF3E1;
+  --color-surface: #F5E7C6;
+  --color-surface-alt: #EBEBDF;
+  --color-text-primary: #222222;
+  --color-text-secondary: #555555;
+  --color-accent: #E9631A;
+  --color-accent-hover: #FF6D1F;
+  --color-dot: #C4956A;
+}
+
+.dark-theme {
+  --color-background: #1a1a1a;
+  --color-surface: #262626;
+  --color-surface-alt: #333333;
+  --color-text-primary: #FAF3E1;
+  --color-text-secondary: #B0A090;
+  --color-accent: #E9631A;
+  --color-accent-hover: #FF6D1F;
+  --color-dot: #8B7355;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  @apply antialiased;
+  transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+/* Theme-aware backgrounds */
+.light-theme body,
+.light-theme {
+  @apply bg-linen text-blackhole;
+}
+
+.dark-theme body,
+.dark-theme {
+  background-color: #1a1a1a;
+  color: #FAF3E1;
+}
+
+/* Theme-aware navbar */
+.dark-theme .navbar-scrolled {
+  background-color: rgba(26, 26, 26, 0.95) !important;
+  border-color: rgba(250, 243, 225, 0.1) !important;
+}
+
+.dark-theme .navbar-scrolled a,
+.dark-theme .navbar-scrolled button {
+  color: #FAF3E1 !important;
+}
+
+/* Theme-aware text colors */
+.dark-theme .text-blackhole {
+  color: #FAF3E1;
+}
+
+.dark-theme .text-secondary {
+  color: #B0A090;
+}
+
+/* Theme-aware surfaces */
+.dark-theme .bg-linen {
+  background-color: #1a1a1a;
+}
+
+.dark-theme .bg-cotton {
+  background-color: #262626;
+}
+
+.dark-theme .bg-oatmilk {
+  background-color: #333333;
+}
+
+/* Theme-aware borders */
+.dark-theme .border-blackhole {
+  border-color: rgba(250, 243, 225, 0.2);
+}
+
+/* Theme-aware hover states */
+.dark-theme .hover\:bg-cotton:hover {
+  background-color: #333333;
+}
+
+.dark-theme .lg\:group-hover\:bg-cotton:hover {
+  background-color: #333333;
+}
+
+/* Custom scrollbar - theme aware */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+.light-theme ::-webkit-scrollbar-track,
+::-webkit-scrollbar-track {
+  @apply bg-linen;
+}
+
+.dark-theme ::-webkit-scrollbar-track {
+  background-color: #1a1a1a;
+}
+
+.light-theme ::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb {
+  @apply bg-cotton rounded-full;
+}
+
+.dark-theme ::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-orange/30;
+}
+
+/* Selection styling - warm orange */
+::selection {
+  @apply bg-orange/20 text-blackhole;
+}
+
+.dark-theme ::selection {
+  background-color: rgba(233, 99, 26, 0.3);
+  color: #FAF3E1;
+}
+
+/* Focus visible outlines */
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-orange;
+}
+
+/* Custom utilities */
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-orange to-tangerine;
+  }
+}
+
+/* Link hover effect */
+a {
+  @apply transition-colors duration-200;
+}
+
+/* Section headings mobile - theme aware */
+.section-heading {
+  @apply sticky top-16 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:sr-only;
+  background-color: color-mix(in srgb, var(--color-background) 75%, transparent);
+}
+
+/* Geometric card styles */
+@layer components {
+  .card-geometric {
+    @apply bg-cotton rounded-4xl border border-orange/10 p-6 transition-all duration-300;
+  }
+
+  .card-geometric:hover {
+    @apply border-orange/30 shadow-lg;
+  }
+
+  .pill-tag {
+    @apply inline-flex items-center rounded-full bg-linen border border-orange/20 px-3 py-1 text-xs font-medium text-blackhole/70;
+  }
+
+  .pill-tag-filled {
+    @apply inline-flex items-center rounded-full bg-orange/10 px-3 py-1 text-xs font-medium text-orange;
+  }
+
+  .btn-primary {
+    @apply px-5 py-2 text-sm font-medium text-linen bg-orange hover:bg-tangerine rounded-full transition-colors;
+  }
+
+  .btn-outline {
+    @apply px-5 py-2 text-sm font-medium text-orange border border-orange hover:bg-orange hover:text-linen rounded-full transition-colors;
+  }
+}
+
+/* Add padding for fixed navbar */
+main {
+  padding-top: 4rem;
+}
+
+/* Dark theme specific component overrides */
+.dark-theme .card-geometric {
+  background-color: #262626;
+}
+
+.dark-theme .pill-tag {
+  background-color: #262626;
+  border-color: rgba(233, 99, 26, 0.3);
+  color: #B0A090;
+}
+
+/* Smooth theme transition for all elements */
+.dark-theme *,
+.light-theme * {
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+/* Nav indicator needs transform transitions */
+.nav-indicator {
+  transition-property: transform, background-color !important;
+  transition-duration: 0.15s !important;
+  transition-timing-function: ease-out !important;
+}
+
+/* Exclude certain elements from transition */
+.no-theme-transition,
+.no-theme-transition * {
+  transition: none !important;
+}
+
+/* Theme sweep transition overlay */
+.theme-sweep {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  transform: translateY(100%);
+  will-change: transform;
+}
+
+.theme-sweep--active {
+  animation: theme-sweep-up 800ms cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes theme-sweep-up {
+  0% {
+    transform: translateY(100%);
+  }
+  35% {
+    transform: translateY(0%);
+  }
+  65% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
