@@ -30,7 +30,16 @@ export function Footer() {
     <footer className="relative py-12">
       <div className="max-w-xs text-sm text-secondary">
         <p>
-          2026 Edition. Built with Next.js, React and Tailwind.
+          2026 Edition. Built by{" "}
+          <a
+            href="https://github.com/wallcache/halwall_site"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-orange hover:text-tangerine transition-colors"
+          >
+            me
+          </a>{" "}
+          with Next.js, React and Tailwind.
         </p>
       </div>
       <AnimatePresence>
