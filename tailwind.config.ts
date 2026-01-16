@@ -13,8 +13,8 @@ const config: Config = {
         linen: "#FAF3E1",           // Sustainable Linen - Base Background (solid, no gradient)
         cotton: "#F5E7C6",          // Recycled Cotton - Card/Surface
         oatmilk: "#EBEBDF",         // Oatmilk Latte - Tags background
-        orange: "#E9631A",          // Atomic Orange - Brand Primary (accents, borders, buttons)
-        tangerine: "#FF6D1F",       // Electric Tangerine - Hover Accent / Spotlight glow
+        orange: "#F06B2A",          // Atomic Orange - Brand Primary (accents, borders, buttons)
+        tangerine: "#FF7A35",       // Electric Tangerine - Hover Accent / Spotlight glow
         blackhole: "#222222",       // Black Hole - Text Primary (body text, headings)
         secondary: "#555555",       // Text Secondary - Dates and metadata
       },
@@ -51,11 +51,11 @@ const config: Config = {
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
         highlight: {
-          "0%": { boxShadow: "0 0 0 0px #E9631A" },
-          "29%": { boxShadow: "0 0 0 0px #E9631A" },
-          "30%": { boxShadow: "0 0 0 3px #E9631A" },
-          "72%": { boxShadow: "0 0 0 3px #E9631A" },
-          "100%": { boxShadow: "0 0 0 0px #E9631A" },
+          "0%": { boxShadow: "0 0 0 0px #F06B2A" },
+          "29%": { boxShadow: "0 0 0 0px #F06B2A" },
+          "30%": { boxShadow: "0 0 0 3px #F06B2A" },
+          "72%": { boxShadow: "0 0 0 3px #F06B2A" },
+          "100%": { boxShadow: "0 0 0 0px #F06B2A" },
         },
       },
     },
