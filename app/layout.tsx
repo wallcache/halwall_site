@@ -19,6 +19,14 @@ export const metadata: Metadata = {
     "Portfolio",
   ],
   authors: [{ name: "Hal Wall" }],
+  icons: {
+    icon: [
+      { url: "/assets/images/logos/wallcache-mono-alt.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/assets/images/logos/wallcache-mono-alt.png", type: "image/png" },
+    ],
+  },
   openGraph: {
     title: "Hal Wall | Data Engineer",
     description:
