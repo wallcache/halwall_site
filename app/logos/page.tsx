@@ -30,7 +30,7 @@ export default function LogosPage() {
         Brand Identities
       </h1>
       <p className="mb-12 text-secondary max-w-lg">
-        Clean, purposeful marks that stand the test of time. Logo design and brand identity work spanning 11+ projects.
+        Clean, purposeful marks that stand the test of time. Logo design and brand identity work for 12 featured projects.
       </p>
 
       <div className="group/list grid grid-cols-2 md:grid-cols-3 gap-6">

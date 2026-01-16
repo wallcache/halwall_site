@@ -20,7 +20,7 @@ export const navLinks = [...sectionLinks, ...pageLinks] as const;
 export const heroData = {
   name: "Hal Wall",
   title: "Data Engineer at Chubb Insurance",
-  tagline: "Somewhere between spreadsheets and Tolstoy.",
+  tagline: "Somewhere between Databricks and Tolstoy.",
   location: "Barnes, London",
 };
 
@@ -1102,7 +1102,7 @@ Flawless. The best English comedy of manners.`,
   {
     title: "The Picture of Dorian Gray",
     author: "Oscar Wilde",
-    rating: 4,
+    rating: 5,
     type: "review",
     excerpt: "Wilde's only novel is a Gothic fable about aestheticism taken to its logical extreme. Dorian Gray stays young and beautiful while his portrait ages and corrupts...",
     fullReview: `Wilde's only novel is a Gothic fable about aestheticism taken to its logical extreme. Dorian Gray stays young and beautiful while his portrait ages and corrupts, bearing the marks of his sins.
@@ -1156,7 +1156,7 @@ Doesn't feel as shocking as it once did, but the voice remains perfect. Essentia
   {
     title: "On The Road",
     author: "Jack Kerouac",
-    rating: 4,
+    rating: 5,
     type: "review",
     excerpt: "The defining Beat Generation novel. Spontaneous prose attempting to capture the rhythm of American restlessness...",
     fullReview: `The defining Beat Generation novel. Spontaneous prose attempting to capture the rhythm of American restlessness. Kerouac and Dean Moriarty (Neal Cassady) drive back and forth across America searching for... something. Kicks, meaning, authentic experience.
@@ -1172,9 +1172,9 @@ Historically important, occasionally beautiful, ultimately exhausting. Worth rea
   {
     title: "The Dharma Bums",
     author: "Jack Kerouac",
-    rating: 4,
+    rating: 5,
     type: "review",
-    excerpt: "Kerouac's follow-up to On the Road trades speed for contemplation. Where the earlier book races across America in cars, this one climbs mountains and sits zazen...",
+    excerpt: "This book changed my life. Kerouac's follow-up to On the Road trades speed for contemplation. Where the earlier book races across America in cars, this one climbs mountains and sits zazen...",
     fullReview: `Kerouac's follow-up to On the Road trades speed for contemplation. Where the earlier book races across America in cars, this one climbs mountains and sits zazen. The beat aesthetic meets Buddhism.
 
 Japhy Ryder (based on Gary Snyder) represents everything Kerouac aspires to: disciplined meditation practice combined with spontaneous joy. The contrast between Kerouac's alcoholic chaos and Japhy's studied simplicity creates the book's tension.
@@ -1204,7 +1204,7 @@ Murakami at his Murakami-est. If you like his style, this is a strong example. I
   {
     title: "Norwegian Wood",
     author: "Haruki Murakami",
-    rating: 4,
+    rating: 5,
     type: "review",
     excerpt: "Murakami's most realistic novel is a departure from his usual surrealism. No talking cats, no alternate dimensions, just young people navigating love and mental illness...",
     fullReview: `Murakami's most realistic novel is a departure from his usual surrealism. No talking cats, no alternate dimensions, just young people navigating love and mental illness in 1960s Tokyo.
@@ -1222,7 +1222,7 @@ Moving, well-crafted, but ultimately feels less substantial than his weirder wor
   {
     title: "Siddhartha",
     author: "Hermann Hesse",
-    rating: 4,
+    rating: 5,
     type: "review",
     excerpt: "Hesse's spiritual fable follows a young man's search for enlightenment in ancient India. Siddhartha rejects his Brahmin upbringing, spends years with ascetics, becomes a wealthy merchant...",
     fullReview: `Hesse's spiritual fable follows a young man's search for enlightenment in ancient India. Siddhartha rejects his Brahmin upbringing, spends years with ascetics, becomes a wealthy merchant, finally finds peace as a ferryman.
@@ -1238,7 +1238,7 @@ Still, for a short, accessible introduction to Eastern philosophy, it's hard to 
   {
     title: "The Old Man and the Sea",
     author: "Ernest Hemingway",
-    rating: 4,
+    rating: 5,
     type: "review",
     excerpt: "Hemingway's late novella is his most stripped-down work. Just an old fisherman, a giant marlin, and the sea. The prose is elemental, almost biblical...",
     fullReview: `Hemingway's late novella is his most stripped-down work. Just an old fisherman, a giant marlin, and the sea. The prose is elemental, almost biblical.
@@ -1274,7 +1274,7 @@ Essential political philosophy, whether you agree or recoil.`,
   {
     title: "A Christmas Carol",
     author: "Charles Dickens",
-    rating: 4,
+    rating: 5,
     type: "review",
     excerpt: "Dickens' ghost story invented Christmas as we know it. The modern holiday's emphasis on generosity, family, and redemption comes largely from this novella...",
     fullReview: `Dickens' ghost story invented Christmas as we know it. The modern holiday's emphasis on generosity, family, and redemption comes largely from this novella.
@@ -1292,7 +1292,7 @@ Minor Dickens, but perfectly executed. The essential Christmas story.`,
   {
     title: "The Hobbit",
     author: "J.R.R. Tolkien",
-    rating: 4,
+    rating: 5,
     type: "review",
     excerpt: "Tolkien's first Middle-earth book is lighter than Lord of the Rings. Children's literature that adults can enjoy rather than epic fantasy...",
     fullReview: `Tolkien's first Middle-earth book is lighter than Lord of the Rings. Children's literature that adults can enjoy rather than epic fantasy.
@@ -1310,7 +1310,7 @@ Not as ambitious as the trilogy, but more fun to read. The perfect introduction 
   {
     title: "Flush",
     author: "Virginia Woolf",
-    rating: 3,
+    rating: 4,
     type: "review",
     excerpt: "Woolf's biography of Elizabeth Barrett Browning's cocker spaniel is her most accessible work. Playful, light, yet still formally interesting...",
     fullReview: `Woolf's biography of Elizabeth Barrett Browning's cocker spaniel is her most accessible work. Playful, light, yet still formally interesting.
