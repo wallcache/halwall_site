@@ -1,0 +1,11 @@
+export { Spotlight } from "./Spotlight";
+export { Navbar } from "./Navbar";
+export { Nav } from "./Nav";
+export { SocialLinks } from "./SocialLinks";
+export { About } from "./About";
+export { Experience } from "./Experience";
+export { Projects } from "./Projects";
+export { Writing } from "./Writing";
+export { Footer } from "./Footer";
+export { MagneticImage } from "./MagneticImage";
+export { HoverVideo } from "./HoverVideo";
