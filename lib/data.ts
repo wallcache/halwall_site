@@ -814,6 +814,38 @@ export interface BookReview {
 
 export const bookReviewsData: BookReview[] = [
   {
+    title: "The Dharma Bums",
+    author: "Jack Kerouac",
+    rating: 5,
+    type: "review",
+    excerpt: "This book changed my life. Kerouac's follow-up to On the Road trades speed for contemplation. Where the earlier book races across America in cars, this one climbs mountains and sits zazen...",
+    fullReview: `Kerouac's follow-up to On the Road trades speed for contemplation. Where the earlier book races across America in cars, this one climbs mountains and sits zazen. The beat aesthetic meets Buddhism.
+
+Japhy Ryder (based on Gary Snyder) represents everything Kerouac aspires to: disciplined meditation practice combined with spontaneous joy. The contrast between Kerouac's alcoholic chaos and Japhy's studied simplicity creates the book's tension.
+
+The mountain climbing sections are genuinely beautiful. Kerouac captures the physical exhaustion and spiritual clarity of high altitude with impressive precision. These passages justify the book's reputation.
+
+But there's something performative about the Buddhism. Kerouac wants enlightenment without the work. The book acknowledges this contradiction without fully confronting it.
+
+Lighter than Kerouac's best work, but still worth reading for the mountain scenes and its influence on 1960s counterculture.`,
+  },
+  {
+    title: "Moby Dick",
+    author: "Herman Melville",
+    rating: 5,
+    type: "review",
+    excerpt: "Herman Melville's Moby-Dick isn't just a novel, it's a spiritual odyssey disguised as a whaling voyage. To read it is to embark on your own hero's journey...",
+    fullReview: `Herman Melville's Moby-Dick isn't just a novel, it's a spiritual odyssey disguised as a whaling voyage. To read it is to embark on your own hero's journey, descending into the belly of the whale alongside Ishmael, confronting Captain Ahab's monomaniacal hunt, and emerging, if you survive, transformed.
+
+This is Shakespeare channeled through American seas. Melville writes with Shakespearean intensity: tragic, Biblical, sublime. Every page drips with allusion to Genesis, Jonah, Job, but also with the Romantic poets, Milton's Satan, and the darkest corners of the unconscious. The whale itself becomes whatever you need it to be: vengeance, God, nature, fate, or the shadow-self you're hunting in your own depths.
+
+Yes, it's about whaling. Yes, the cetology chapters can feel like detours. But that's the point. Journeys are circular. Meaning hides in the margins. While Melville teaches you about spermaceti and harpoons, he's actually teaching you about yourself: your quest, your darkness, your capacity for obsession and transcendence.
+
+The language alone justifies multiple rereadings. Melville doesn't write sentences; he composes arias. This is literature as liturgy, as mythology, as voyage. It demands to be read aloud, savored, journaled upon, argued with, loved.
+
+Read it slowly. Read it with others. Read it as if your life depends on it, because in some quiet, metaphysical way, it does.`,
+  },
+  {
     title: "War and Peace",
     author: "Leo Tolstoy",
     rating: 5,
@@ -878,22 +910,6 @@ The book's psychology is unnervingly accurate. The Underground Man's spirals of 
 This is the foundation for modernist alienation, existentialism, and basically all 20th-century literature about consciousness turned against itself.
 
 Short, dense, brilliant. Essential Dostoevsky.`,
-  },
-  {
-    title: "Moby Dick",
-    author: "Herman Melville",
-    rating: 5,
-    type: "review",
-    excerpt: "Herman Melville's Moby-Dick isn't just a novel, it's a spiritual odyssey disguised as a whaling voyage. To read it is to embark on your own hero's journey...",
-    fullReview: `Herman Melville's Moby-Dick isn't just a novel, it's a spiritual odyssey disguised as a whaling voyage. To read it is to embark on your own hero's journey, descending into the belly of the whale alongside Ishmael, confronting Captain Ahab's monomaniacal hunt, and emerging, if you survive, transformed.
-
-This is Shakespeare channeled through American seas. Melville writes with Shakespearean intensity: tragic, Biblical, sublime. Every page drips with allusion to Genesis, Jonah, Job, but also with the Romantic poets, Milton's Satan, and the darkest corners of the unconscious. The whale itself becomes whatever you need it to be: vengeance, God, nature, fate, or the shadow-self you're hunting in your own depths.
-
-Yes, it's about whaling. Yes, the cetology chapters can feel like detours. But that's the point. Journeys are circular. Meaning hides in the margins. While Melville teaches you about spermaceti and harpoons, he's actually teaching you about yourself: your quest, your darkness, your capacity for obsession and transcendence.
-
-The language alone justifies multiple rereadings. Melville doesn't write sentences; he composes arias. This is literature as liturgy, as mythology, as voyage. It demands to be read aloud, savored, journaled upon, argued with, loved.
-
-Read it slowly. Read it with others. Read it as if your life depends on it, because in some quiet, metaphysical way, it does.`,
   },
   {
     title: "Don Quixote",
@@ -1168,22 +1184,6 @@ But the philosophy is adolescent. The constant movement, the jazz clubs, the dru
 What saves it is Kerouac's ear for American speech and his genuine love of the country's vastness. The descriptions of landscape, the snapshot portraits of minor characters: these moments transcend the book's limitations.
 
 Historically important, occasionally beautiful, ultimately exhausting. Worth reading once.`,
-  },
-  {
-    title: "The Dharma Bums",
-    author: "Jack Kerouac",
-    rating: 5,
-    type: "review",
-    excerpt: "This book changed my life. Kerouac's follow-up to On the Road trades speed for contemplation. Where the earlier book races across America in cars, this one climbs mountains and sits zazen...",
-    fullReview: `Kerouac's follow-up to On the Road trades speed for contemplation. Where the earlier book races across America in cars, this one climbs mountains and sits zazen. The beat aesthetic meets Buddhism.
-
-Japhy Ryder (based on Gary Snyder) represents everything Kerouac aspires to: disciplined meditation practice combined with spontaneous joy. The contrast between Kerouac's alcoholic chaos and Japhy's studied simplicity creates the book's tension.
-
-The mountain climbing sections are genuinely beautiful. Kerouac captures the physical exhaustion and spiritual clarity of high altitude with impressive precision. These passages justify the book's reputation.
-
-But there's something performative about the Buddhism. Kerouac wants enlightenment without the work. The book acknowledges this contradiction without fully confronting it.
-
-Lighter than Kerouac's best work, but still worth reading for the mountain scenes and its influence on 1960s counterculture.`,
   },
   {
     title: "Kafka On The Shore",
