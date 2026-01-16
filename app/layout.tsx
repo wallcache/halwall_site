@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Header } from "@/components/Header";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://halwall.com"),
   title: "Hal Wall | Data Engineer",
   description:
     "Data Engineer at Chubb Insurance. Building secure, scalable data products with Azure, Databricks, and PySpark. Physics graduate from Imperial College London.",
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://halwall.com/assets/images/social/og-image.png",
+        url: "/assets/images/social/og-image.png",
         width: 1200,
         height: 630,
         alt: "Hal Wall",
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
     title: "Hal Wall | Somewhere between Databricks and Tolstoy",
     description:
       "Hal Wall | Somewhere between Databricks and Tolstoy",
-    images: ["https://halwall.com/assets/images/social/og-image.png"],
+    images: ["/assets/images/social/og-image.png"],
   },
   robots: {
     index: true,
