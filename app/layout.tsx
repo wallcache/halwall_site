@@ -28,19 +28,28 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Hal Wall | Data Engineer",
+    title: "Hal Wall | Somewhere between Databricks and Tolstoy",
     description:
-      "Data Engineer at Chubb Insurance. Building secure, scalable data products.",
+      "Hal Wall | Somewhere between Databricks and Tolstoy",
     url: "https://halwall.com",
     siteName: "Hal Wall",
     locale: "en_GB",
     type: "website",
+    images: [
+      {
+        url: "https://halwall.com/assets/images/social/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Hal Wall",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hal Wall | Data Engineer",
+    title: "Hal Wall | Somewhere between Databricks and Tolstoy",
     description:
-      "Data Engineer at Chubb Insurance. Building secure, scalable data products.",
+      "Hal Wall | Somewhere between Databricks and Tolstoy",
+    images: ["https://halwall.com/assets/images/social/og-image.png"],
   },
   robots: {
     index: true,
