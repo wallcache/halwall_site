@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         // Atomic Orange Design System - High Contrast Editorial
-        linen: "#FAF3E1",           // Sustainable Linen - Base Background (solid, no gradient)
+        linen: "#FAF6EE",           // Sustainable Linen - Base Background (solid, no gradient)
         cotton: "#F5E7C6",          // Recycled Cotton - Card/Surface
         oatmilk: "#EBEBDF",         // Oatmilk Latte - Tags background
         orange: "#F06B2A",          // Atomic Orange - Brand Primary (accents, borders, buttons)
