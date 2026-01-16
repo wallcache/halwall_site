@@ -13,7 +13,7 @@ const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz&";
 const CREATIVE_ROUTES = ["/photography", "/logos", "/animations", "/writing"];
 const ANIMATION_INTERVAL = 50; // ms between frames
 const CHARS_PER_FRAME = 2; // characters revealed/hidden per frame
-const TRANSITION_DELAY = 320; // delay to sync with theme sweep (when screen is covered)
+const TRANSITION_DELAY = 820; // delay to sync with theme sweep (when screen is covered)
 
 function isCreativeRoute(path: string): boolean {
   return CREATIVE_ROUTES.some((route) => path.startsWith(route));
