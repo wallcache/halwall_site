@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { Header } from "@/components/Header";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://halwall.com"),
+  metadataBase: new URL("https://halwall.me"),
   title: "Hal Wall | Data Engineer",
   description:
     "Data Engineer at Chubb Insurance. Building secure, scalable data products with Azure, Databricks, and PySpark. Physics graduate from Imperial College London.",
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hal Wall | Somewhere between Databricks and Tolstoy",
     description:
-      "Hal Wall | Somewhere between Databricks and Tolstoy",
-    url: "https://halwall.com",
+      "Data Engineer at Chubb Insurance. Photographer and graphic designer. Building data products with Azure, Databricks, and PySpark.",
+    url: "https://halwall.me",
     siteName: "Hal Wall",
     locale: "en_GB",
     type: "website",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hal Wall | Somewhere between Databricks and Tolstoy",
     description:
-      "Hal Wall | Somewhere between Databricks and Tolstoy",
+      "Data Engineer at Chubb Insurance. Photographer and graphic designer. Building data products with Azure, Databricks, and PySpark.",
     images: ["/assets/images/social/og-image.png"],
   },
   robots: {
