@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Hal Wall | Somewhere between Databricks and Tolstoy",
+    title: "Hal Wall | Somewhere between Databricks and Dickens",
     description:
       "Data Engineer at Chubb Insurance. Photographer and graphic designer. Building data products with Azure, Databricks, and PySpark.",
     url: "https://halwall.me",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hal Wall | Somewhere between Databricks and Tolstoy",
+    title: "Hal Wall | Somewhere between Databricks and Dickens",
     description:
       "Data Engineer at Chubb Insurance. Photographer and graphic designer. Building data products with Azure, Databricks, and PySpark.",
     images: ["/assets/images/social/og-image.png"],

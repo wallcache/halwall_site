@@ -20,7 +20,7 @@ export const navLinks = [...sectionLinks, ...pageLinks] as const;
 export const heroData = {
   name: "Hal Wall",
   title: "Data Engineer at Chubb Insurance",
-  tagline: "Somewhere between Databricks and Tolstoy.",
+  tagline: "Somewhere between Databricks and Dickens.",
   location: "Barnes, London",
 };
 
