@@ -39,7 +39,7 @@ export function Footer() {
           >
             me
           </a>{" "}
-          with Next.js, React and Tailwind.
+          with Next.js, React and Tailwind. Hosted on Vercel, Naturally.
         </p>
       </div>
       <AnimatePresence>
